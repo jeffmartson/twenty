@@ -55,7 +55,7 @@
     "@nestjs/terminus": "^9.2.2",
     "@nestjs/typeorm": "^10.0.0",
     "@paljs/plugins": "^5.3.3",
-    "@prisma/client": "4.13.0",
+    "@prisma/client": "4.16.2",
     "@ptc-org/nestjs-query-core": "^4.2.0",
     "@ptc-org/nestjs-query-graphql": "^4.2.0",
     "@ptc-org/nestjs-query-typeorm": "^4.2.1-alpha.2",
