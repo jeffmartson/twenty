@@ -1,4 +1,4 @@
-FROM node:18.16-bullseye as front
+FROM node:18.19-bullseye as front
 
 COPY /../../packages /app/packages
 
