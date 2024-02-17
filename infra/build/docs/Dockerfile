@@ -1,4 +1,4 @@
-FROM node:18.16.0-alpine as docs
+FROM node:18.19.0-alpine as docs
 
 WORKDIR /app/docs
 
