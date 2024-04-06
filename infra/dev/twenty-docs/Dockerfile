@@ -1,4 +1,4 @@
-FROM node:18.16-bullseye as docs
+FROM node:18.20.1-bullseye as docs
 
 WORKDIR /app/docs
 
