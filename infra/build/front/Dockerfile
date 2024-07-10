@@ -1,4 +1,4 @@
-FROM node:18.16.0-alpine as build
+FROM node:18.20.4-alpine as build
 
 ARG REACT_APP_SERVER_BASE_URL
 ARG REACT_APP_SERVER_AUTH_URL
@@ -14,7 +14,7 @@ RUN yarn build
 
 COPY ./infra/build/front/serve.json ./build
 
-FROM node:18.16.0-alpine as front
+FROM node:18.20.4-alpine as front
 
 WORKDIR /app/front
 
